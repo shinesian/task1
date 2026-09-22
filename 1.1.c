@@ -5,20 +5,26 @@
 #include <stdio.h>
 #include <math.h>
 /**
-@brief функция а со значениями x, y
+ * @brief Вычисляет значение функции A по заданной формуле
+ * @param x значение параметра x
+ * @param y значение параметра y
+ * @param z значение параметра z
+ * @return рассчитанное значение
  */
 double A(const double x, const double y);
 
 /**
-@brief функция b со значениями x, y
+ * @brief Вычисляет значение функции B по заданной формуле
+ * @param x значение параметра x
+ * @param y значение параметра y
+ * @param z значение параметра z
+ * @return рассчитанное значение
  */
 double B(const double x, const double y);
 
 /**
  * @brief точка входа в программму
  * @return возвращает 0, если программа выполнена корректно
-  * @param x значение параметра x
- * @param y значение параметра y
  */
 int main()
 {
