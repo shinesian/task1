@@ -8,7 +8,6 @@
  * @brief Вычисляет значение функции A по заданной формуле
  * @param x значение параметра x
  * @param y значение параметра y
- * @param z значение параметра z
  * @return рассчитанное значение
  */
 double A(const double x, const double y);
@@ -17,7 +16,6 @@ double A(const double x, const double y);
  * @brief Вычисляет значение функции B по заданной формуле
  * @param x значение параметра x
  * @param y значение параметра y
- * @param z значение параметра z
  * @return рассчитанное значение
  */
 double B(const double x, const double y);
@@ -34,18 +32,12 @@ int main()
     printf("b = %.3f", B(x, y));
     return 0;
 }
- /**
- * @brief Вычисляет значение функции A по заданной формуле
-  * @return рассчитанное значение
-*/
+
 double A(const double x, const double y)
 {
     return 1 + x + pow(x, 2)/2 + pow(x, 3)/3 + pow(x, 4)/4;
 }
-/**
- * @brief Вычисляет значение функции B по заданной формуле
-  * @return рассчитанное значение
-*/
+
 double B(const double x, const double y)
 {
     return x*(sin(pow(x, 3)) + pow(cos(y), 3));
