@@ -39,7 +39,7 @@ double s(const double radius)
 
 double v(const double radius)
 {
-    return pow(radius, 3)*(4/3)*M_PI;
+    return pow(radius, 3)*(4.0/3.0)*M_PI;
 }
 
 double getDouble()
