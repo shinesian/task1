@@ -34,6 +34,10 @@ double resistance(const double r1, const double r2, const double r3)
 double getDouble()
 {
     double value = 0.0;
-    scanf("%lf", &value);
+    if (scanf("%lf",&value) != 1)
+        {
+            printf("Error");
+            exit(1);
+        }
     return value;
 }
